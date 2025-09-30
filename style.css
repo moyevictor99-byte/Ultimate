@@ -1,0 +1,119 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* General */
+body {
+  background: linear-gradient(135deg, #0d1b2a, #1a2a3a);
+  color: #eaeaea;
+  line-height: 1.6;
+}
+
+/* Navbar */
+header {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 15px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: blur(6px);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #00ff88;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+  color: #00ff88;
+}
+
+/* Hero (Home Page) */
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("https://source.unsplash.com/1600x800/?football,stadium") no-repeat center center/cover;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #00ff88;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background: #00ff88;
+  color: #111;
+  padding: 12px 24px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #00cc66;
+}
+
+/* Page Sections */
+.page-section {
+  padding: 100px 20px;
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.page-section h1 {
+  margin-bottom: 20px;
+  font-size: 32px;
+  color: #00ff88;
+}
+
+.page-section p {
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #ddd;
+}
+
+/* Card Styling
